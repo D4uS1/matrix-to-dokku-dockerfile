@@ -12,7 +12,7 @@ WORKDIR /app/matrix.to
 ARG ELEMENT_HOST_URL="app.element.io"
 
 # Replace the default redirect url to our self hosted instance
-RUN sed -i 's/app.element.io/${ELEMENT_HOST_URL}/g' src/open/clients/Element.js
+RUN sed -i "s/app.element.io/${ELEMENT_HOST_URL}/g" src/open/clients/Element.js
 
 RUN npm install
 
