@@ -1,3 +1,6 @@
+# !!!! IMPORTANT NOTE !!!!
+This repository was moved to [Codeberg](https://codeberg.org/D4uS1/matrix-to-dokku-dockerfile). The github repository is not maintained anymore.
+
 # Dockerfile for Dokku Deployment of matrix.to instance
 Matrix.to does not provide a docker image itself to host an own matrix.to instance.
 
